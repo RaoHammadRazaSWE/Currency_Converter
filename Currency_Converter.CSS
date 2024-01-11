@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: green;
+}
+
+.container {
+    background-color:yellow;
+    padding: 1rem;
+    border-radius: 1rem;
+    min-height: 25vh;
+    min-width: 20vh;
+
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid green;
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+
+/* 2 ko ek line ma Dahakana k liya: Rupees */
+
+.dropdown {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 1rem;
+}
+
+.dropdown i {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    border-radius: 0.5rem;
+    border-color:1px solid green;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg {
+    margin: 1rem 0 1rem 0;
+}
+
+form button {
+    height: 2rem;
+    background-color: palevioletred;
+    color: blue;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
